@@ -39,7 +39,7 @@ class MyCar < Cars
     "Car is now at #{@speed} km/h"
   end
   
-  include Gangster
+  include Gangster #this is a test to sww how the .ancestors changed!
   
   def speed_up
     @speed += 10
